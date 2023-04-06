@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Jéssica, Reginaldo, Ariel, Wellington e Guilherme</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Api de ingredientes</Description>
+    <Copyright>FIAP 2017</Copyright>
+    <RepositoryUrl>https://github.com/JessicaNathany/GeekBurguer-Ingredients</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/JessicaNathany/GeekBurguer-Ingredients</PackageProjectUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.0\GeekBurger.Ingredients.Contracts.xml</DocumentationFile>
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekBurger.Ingredients.Api", "src\GeekBurger.Ingredients.Api\GeekBurger.Ingredients.Api.csproj", "{F5306D8C-DF44-4270-9FA6-6E8831FE3ACE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekBurger.Ingredients.Contracts", "src\GeekBurger.Ingredients.Contracts\GeekBurger.Ingredients.Contracts.csproj", "{06191CC8-A2C8-4011-B144-AA72D4C600D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBurger.Ingredients.SendMessage", "test\GeekBurger.Ingredients.SendMessage\GeekBurger.Ingredients.SendMessage.csproj", "{DEA4315E-25E0-4CDC-AB64-1E54B56D1D28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5306D8C-DF44-4270-9FA6-6E8831FE3ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5306D8C-DF44-4270-9FA6-6E8831FE3ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5306D8C-DF44-4270-9FA6-6E8831FE3ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5306D8C-DF44-4270-9FA6-6E8831FE3ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06191CC8-A2C8-4011-B144-AA72D4C600D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06191CC8-A2C8-4011-B144-AA72D4C600D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06191CC8-A2C8-4011-B144-AA72D4C600D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06191CC8-A2C8-4011-B144-AA72D4C600D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA4315E-25E0-4CDC-AB64-1E54B56D1D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA4315E-25E0-4CDC-AB64-1E54B56D1D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA4315E-25E0-4CDC-AB64-1E54B56D1D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA4315E-25E0-4CDC-AB64-1E54B56D1D28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82A168A6-CAB3-4866-B2E8-280759FC7893}
+	EndGlobalSection
+EndGlobal
